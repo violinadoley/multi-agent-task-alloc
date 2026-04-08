@@ -1,0 +1,28 @@
+[project]
+name = "multi_agent_task_alloc"
+version = "1.0.0"
+description = "Multi-Agent Task Allocation - A collaborative RL environment"
+authors = [
+    {name = "Team OpenEnv"}
+]
+requires-python = ">=3.10"
+dependencies = [
+    "openenv-core>=0.1.0",
+    "pydantic>=2.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.openenv]
+cache_control = "no-cache"
+base64 = false
+
+[project.scripts]
+openenv = "openenv:run"

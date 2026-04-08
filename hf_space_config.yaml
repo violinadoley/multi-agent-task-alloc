@@ -1,0 +1,21 @@
+title: Multi-Agent Task Allocation
+emoji: 👥
+colorFrom: blue
+colorTo: green
+sdk: streamlit
+sdk_version: 1.40.0
+app_file: openenv_server.py
+pinned: false
+license: MIT
+tags:
+  - reinforcement-learning
+  - multi-agent
+  - task-allocation
+  - openenv
+  - meta
+  - pytorch
+  - hackathon
+metrics:
+  - trainability
+  - task-completion-rate
+  - efficiency

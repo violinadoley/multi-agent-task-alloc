@@ -1,0 +1,17 @@
+name: multi_agent_task_alloc
+display_name: Multi-Agent Task Allocation
+description: A collaborative environment where AI agents must allocate project tasks to team members based on their skills and availability. Agents learn to coordinate and optimize team productivity.
+author: Team OpenEnv
+version: 1.0.0
+license: MIT
+repository: https://github.com/your-repo/multi-agent-task-alloc
+tags:
+  - collaboration
+  - multi-agent
+  - task-allocation
+  - planning
+  - team coordination
+emoji: 👥
+force_32bit: false
+runtime: python
+pipeline: actor-critic
